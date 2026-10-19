@@ -1,0 +1,73 @@
+.root {
+    -fx-background-color: #e8f1fa;
+    -fx-font-family: "Press Start 2P", "Monospaced";
+}
+
+.titulo {
+    -fx-text-fill: #3f6fa8;
+    -fx-font-size: 20px;
+}
+
+.estado {
+    -fx-text-fill: #2b4a6f;
+    -fx-font-size: 10px;
+}
+
+.button {
+    -fx-background-color: #8bb8e8;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #2b4a6f;
+    -fx-border-width: 2;
+    -fx-text-fill: #1f3a5c;
+    -fx-font-size: 10px;
+    -fx-padding: 8 10 8 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #a9ccf0;
+}
+
+.button:pressed {
+    -fx-background-color: #6fa0d6;
+}
+
+.casilla {
+    -fx-background-color: #f7fbff;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #7fa6cc;
+    -fx-text-fill: #2f6fb5;
+    -fx-font-size: 18px;
+    -fx-padding: 0;
+    -fx-highlight-fill: #b9d6f2;
+    -fx-highlight-text-fill: #1f3a5c;
+}
+
+.casilla:focused {
+    -fx-background-color: #d6e8f8;
+}
+
+.casilla.fija {
+    -fx-background-color: #c5dcf2;
+    -fx-text-fill: #1f3a5c;
+}
+
+.casilla.ultima {
+    -fx-background-color: #b6f2b6;
+    -fx-text-fill: #1d5c2a;
+}
+
+.casilla.ultima:focused {
+    -fx-background-color: #b6f2b6;
+}
+
+.casilla.error {
+    -fx-background-color: #b13e53;
+    -fx-text-fill: #f4f4f4;
+}
+
+.casilla.error:focused {
+    -fx-background-color: #b13e53;
+}
